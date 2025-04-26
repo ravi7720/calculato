@@ -1,0 +1,23 @@
+body{
+
+    background-color: antiquewhite;
+    h1{
+        
+        text-align: center;
+    }
+    button{
+        background-color: whitesmoke;
+    }
+    .mydiv{
+        text-align: l;
+    };
+    .hakim{
+        text-align:right
+    }
+    .ravi{
+        text-align: left
+    }
+    img{
+        margin:4px;
+    }
+};

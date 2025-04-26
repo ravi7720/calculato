@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+    
+
+</head>
+
+<body>
+    <h1>#CALCULATOR!</h1>
+    <div class="img">
+    <img src="callu.png" alt="">
+    </div>
+    <div class="ravi">
+        <input type="number" id="First_Number" placeholder="Enter the first number:">
+    </div>
+    <div class="hakim">
+        <input type="number" id="Second_Number" placeholder="Enter the second number:">
+    </div>
+    <br>
+    <div class="mydiv">
+        <div>
+            <h3>Addition:</h3>
+            <button onclick="myadd()">+ </button>
+        </div>
+        <div>
+            <h3>Subtraction:</h3>
+            <button onclick="mysub()">-</button>
+        </div>
+        <div>
+            <h3>Multiplication:</h3>
+            <button onclick="mymult()">*</button>
+        </div><br>
+        <div>
+            <h3>Division:</h3>
+            <button onclick="mydiv()">/</button>
+        </div><br>
+        <div>
+            <h3>Square:</h3>
+            <button onclick="mysqr()">n*2</button>
+        </div><br>
+        <div>
+            <h3> SquareRoot:</h3>
+            <button onclick="mysquareoot()">√</button>
+        </div><br>
+        <div>
+            <h3>Exponent:</h3>
+            <button onclick="myexp()">^</button>
+        </div>
+        <p id="Hakim ka calculator">Result</p>
+    </div>
+    <script>
+        function myadd() {
+            let x = document.getElementById("First_Number").value;
+            let y = document.getElementById("Second_Number").value;
+            x = Number(x);
+            y = Number(y);
+            z = x + y;
+            document.getElementById("Hakim ka calculator").innerHTML = z;
+        }
+    </script>
+
+</body>
+
+</html>
